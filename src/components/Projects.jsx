@@ -9,7 +9,7 @@ const Projects = () => {
   useEffect(() => {
     const updateCardsToShow = () => {
       if (window.innerWidth >= 1024) {
-        setCardsToShow(projectsData.length);
+        setCardsToShow(projectsData.length + 1.5);
       } else {
         setCardsToShow(1);
       }
